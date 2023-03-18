@@ -6,7 +6,6 @@ import App from './App';
 import NewsFeed from './components/news-feed';
 import reportWebVitals from './reportWebVitals';
 
-
 ReactDOM.render(
   React.createElement(NewsFeed, {}, null),
   document.getElementById('root')

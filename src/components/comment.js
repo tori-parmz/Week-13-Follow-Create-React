@@ -8,7 +8,8 @@ export default class Comment extends React.Component {
     render() {
         return e('div,',
             {class: 'card w-75'},
-            e('div',{class: 'card-header bg-success text-white'},
+            e('div',
+            {class: 'card-header bg-success text-white'},
             'Username and Time'),
             e('div', 
             {class: 'card-body'},
